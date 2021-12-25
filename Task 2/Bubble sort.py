@@ -14,14 +14,12 @@ import sys
 
 def countSwaps(a):
     # Write your code here
-    temp=0;
+
     numswap=0;
-    for x in range(len(a)):
-     for j in range(len(a) -1 ):
+    for x in range(len(a)-1):
+     for j in range(0,len(a)-i-1 ):
         if(a[j]>a[j+1]):
-            temp=a[j];
-            a[j]=a[j+1];
-            a[j+1]=temp;
+            a[j],a[j+1]=a[j+1],a[j]
             numswap=numswap+1;
         
  
