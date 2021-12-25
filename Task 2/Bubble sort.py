@@ -17,7 +17,7 @@ def countSwaps(a):
 
     numswap=0;
     for x in range(len(a)-1):
-     for j in range(0,len(a)-i-1 ):
+     for j in range(0,len(a)-x-1 ):
         if(a[j]>a[j+1]):
             a[j],a[j+1]=a[j+1],a[j]
             numswap=numswap+1;
