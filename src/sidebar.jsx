@@ -34,7 +34,7 @@ function SideBar() {
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <a href="#" className="link-dark rounded">
-                  Overview
+                  Overvie
                 </a>
               </li>
               <li>
